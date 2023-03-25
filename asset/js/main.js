@@ -58,3 +58,11 @@ function getUserInput() {
 
     document.getElementById('DivOutput').classList.toggle('d-none');
 }
+
+function clearArea() {
+
+    document.getElementById("InputNameLastname").value = "";
+    document.getElementById("Inputkm").value = "";
+    document.getElementById("Inputage").value = ""; 
+    document.getElementById('DivOutput').classList.add('d-none');
+}

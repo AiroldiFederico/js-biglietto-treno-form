@@ -6,7 +6,7 @@ body {
 
 
 section {
-  border: dashed red;
+  /* border: dashed red; */
 }
 
 ul li {
@@ -19,4 +19,23 @@ ul {
 
 #priceresult::after {
   content: "€";
+}
+
+#DivInput {
+  background: rgba(255, 0, 0, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+#DivOutput {
+  background: rgba(255, 0, 0, 0.23);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  
 }

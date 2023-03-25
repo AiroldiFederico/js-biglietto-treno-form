@@ -34,12 +34,12 @@
             <!-- form train ticket -->
             <section class="col-6 h-50 px-2 m-auto d-flex flex-column">
 
-                <h1 class="text-center">TRAIN TICKET PRICE</h1>
-
+                
                 <!-- INPUT FORM -->
-                <div>
+                <div id="DivInput">
+                    <h1 class="text-center mt-2">TRAIN TICKET PRICE</h1>
                     <!-- dati da inserire -->
-                    <div class="d-flex justify-content-center gap-2 my-2">
+                    <div class="d-flex justify-content-center gap-2 my-2" >
                         <!-- input Nome e Cognome -->
                         <div class="text-center">
                             <label for="InputNameLastname" class="form-label">Nome Cognome</label>
@@ -61,16 +61,16 @@
                     </div>
 
                     <!-- Tasti invio -->
-                    <div class="d-flex justify-content-center gap-4 mt-4">
+                    <div class="d-flex justify-content-center gap-4 my-4">
                         <!-- Tasto Submit -->
-                        <input class="btn btn-primary" type="submit" value="Submit" onclick="getUserInput()">
-                        <input class="btn btn-primary" type="reset" value="Reset">
+                        <input class="btn btn-light" type="submit" value="Submit" onclick="getUserInput()">
+                        <input class="btn btn-light" type="reset" value="Reset"onclick="clearArea()">
                     </div>
 
                 </div>
 
                 <!-- OUTPUT FORM -->
-                <div class="mt-5 d-none" id="DivOutput">
+                <div class="mt-5 d-none p-2" id="DivOutput">
                     <h2 class="text-center mb-3">IL TUO BIGLIETTO</h2>
 
                     <h4 class="mb-2">DETTAGLIO PASSEGGERI</h4>
