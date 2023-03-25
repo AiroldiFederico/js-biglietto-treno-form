@@ -1,7 +1,7 @@
 body {
     font-family: 'Rubik', sans-serif !important; font-weight: bold !important;
     height: 100vh !important;
-
+    background: rgba(3, 184, 255, 0.436);
 }
 
 
@@ -22,18 +22,18 @@ ul {
 }
 
 #DivInput {
-  background: rgba(255, 0, 0, 0.23);
+  background: rgb(255, 255, 255);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgb(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 #DivOutput {
-  background: rgba(255, 0, 0, 0.23);
+  background: #fffefe;
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.22);
