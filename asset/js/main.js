@@ -50,9 +50,11 @@ function getUserInput() {
     } else if (Inputage > 65) {
          document.getElementById('priceresult').innerHTML = ((prckm * Inputkm) * 0.6).toFixed(2);
          document.getElementById('ticket').innerHTML = `Biglietto ridotto`;
-     }
+    }
 
 
     document.getElementById('carriage').innerHTML = Math.floor(Math.random() * 10 + 1);
     document.getElementById('code').innerHTML = Math.floor(Math.random() * 100000 + 1);
+
+    document.getElementById('DivOutput').classList.toggle('d-none');
 }
