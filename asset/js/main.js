@@ -33,7 +33,11 @@
 // Il recap dei dati e l'output del prezzo finale, andranno quindi stampati in pagina (il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
 
-let InputNameLastname = document.getElementById("InputNameLastname").value;
-let Inputkm = document.getElementById("Inputkm").value;
-let Inputage = document.getElementById("Inputage").value;
+function getUserInput() {
 
+    let InputNameLastname = document.getElementById("InputNameLastname").value;
+    let Inputkm = document.getElementById("Inputkm").value;
+    let Inputage = document.getElementById("Inputage").value;
+
+    document.getElementById('OutName').innerHTML = InputNameLastname
+}
