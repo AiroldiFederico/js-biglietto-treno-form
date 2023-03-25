@@ -45,8 +45,14 @@ function getUserInput() {
 
     document.getElementById('priceresult').innerHTML = (prckm * Inputkm ).toFixed(2);
     if (Inputage < 18) {
-         document.getElementById('priceresult').innerHTML = ((prckm * Inputkm) * 0.8).toFixed(2);
-     } else if (Inputage > 65) {
+        document.getElementById('priceresult').innerHTML = ((prckm * Inputkm) * 0.8).toFixed(2);
+        document.getElementById('ticket').innerHTML = `Biglietto ridotto`;
+    } else if (Inputage > 65) {
          document.getElementById('priceresult').innerHTML = ((prckm * Inputkm) * 0.6).toFixed(2);
+         document.getElementById('ticket').innerHTML = `Biglietto ridotto`;
      }
+
+
+    document.getElementById('carriage').innerHTML = Math.floor(Math.random() * 10 + 1);
+    document.getElementById('code').innerHTML = Math.floor(Math.random() * 100000 + 1);
 }
