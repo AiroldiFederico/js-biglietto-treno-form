@@ -32,31 +32,31 @@
         <main class="col-12 h-100 m-auto d-flex justify-content-center align-items-center">
 
             <!-- form train ticket -->
-            <section class="col-5 h-50 px-2 m-auto d-flex flex-column">
+            <section class="col-6 h-50 px-2 m-auto d-flex flex-column">
 
                 <h1 class="text-center">TRAIN TICKET PRICE</h1>
 
                 <!-- INPUT FORM -->
                 <div>
                     <!-- dati da inserire -->
-                    <div class="d-flex justify-content-center gap-2">
+                    <div class="d-flex justify-content-center gap-2 my-2">
                         <!-- input Nome e Cognome -->
-                        <div>
+                        <div class="text-center">
                             <label for="InputNameLastname" class="form-label">Nome Cognome</label>
                             <input type="text" class="form-control" id="InputNameLastname">
                         </div>
     
                         <!-- Input Kilometri -->
-                        <div>
+                        <div class="text-center">
                             <label for="Inputkm" class="form-label">Km da percorrere</label>
                             <input type="text" class="form-control" id="Inputkm">
                         </div>
     
     
                         <!-- Input Età -->
-                        <div>
+                        <div class="text-center">
                             <label for="Inputage" class="form-label">Età</label>
-                            <input type="number" class="form-control" id="Inputage">
+                            <input type="number" class="form-control" id="Inputage" min="1" max="99" step="1">
                         </div>
                     </div>
 
@@ -76,8 +76,51 @@
                 </div>
 
                 <!-- OUTPUT FORM -->
-                <div>
+                <div class="mt-5">
+                    <h2 class="text-center mb-3">IL TUO BIGLIETTO</h2>
 
+                    <h4 class="mb-2">DETTAGLIO PASSEGGERI</h4>
+
+                    <!-- Output dati -->
+                    <div class="mt-4">
+                        <ul class="d-flex justify-content-between">
+                            <li>
+                                <!-- output 1 -->
+                                <div>
+                                    <h5>NOME PASSEGGERO</h5>
+                                    <p class="mt-4 fw-normal">Test</p>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- output 2 -->
+                                <div>
+                                    <strong>Offerta</strong>
+                                    <p class="mt-4 fw-normal">Test</p>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- output 3 -->
+                                <div>
+                                    <strong>Carrozza</strong>
+                                    <p class="mt-4 fw-normal">Test</p>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- output 4 -->
+                                <div>
+                                    <strong>Codice CP</strong>
+                                    <p class="mt-4 fw-normal">Test</p>
+                                </div>
+                            </li>
+                            <li>
+                                <!-- output 5 -->
+                                <div>
+                                    <strong>Costo biglietto</strong>
+                                    <p class="mt-4 fw-normal">Test</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
             </section>
