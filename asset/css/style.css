@@ -16,3 +16,7 @@ ul li {
 ul {
   padding-left: 0rem;
 }
+
+#priceresult::after {
+  content: "€";
+}
