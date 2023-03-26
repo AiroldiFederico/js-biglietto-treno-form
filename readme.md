@@ -1,4 +1,4 @@
-# ESERCIZIO N.
+# ESERCIZIO
 
 ### Title: js-biglietto-treno-form
 ---
